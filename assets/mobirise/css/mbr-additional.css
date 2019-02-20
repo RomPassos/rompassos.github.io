@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Anton:400);
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -20,14 +23,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Anton', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -41,7 +44,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -1383,13 +1386,13 @@ body {
   }
 }
 .cid-riEy50pSRi {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1920x1285.jpg");
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
 }
 .cid-riEy50pSRi I {
   color: #ff3366;
 }
 .cid-riEy50pSRi H1 {
-  color: #ffffff;
+  color: #e45151;
 }
