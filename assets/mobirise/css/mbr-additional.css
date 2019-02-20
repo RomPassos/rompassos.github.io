@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Anton:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
 
 
@@ -22,7 +20,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -43,7 +41,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -1384,19 +1382,14 @@ body {
     flex: auto!important;
   }
 }
-.cid-riEcT48D3F {
+.cid-riEy50pSRi {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1285.jpg");
 }
-.cid-riEcT48D3F H3 {
+.cid-riEy50pSRi I {
+  color: #ff3366;
+}
+.cid-riEy50pSRi H1 {
   color: #ffffff;
-}
-.cid-riEcT48D3F H1 {
-  color: #d17373;
-}
-.cid-riEcT48D3F .mbr-text,
-.cid-riEcT48D3F .mbr-section-btn {
-  color: #e4d295;
-  text-align: center;
 }
