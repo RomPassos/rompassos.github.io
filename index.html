@@ -142,24 +142,44 @@
   <script src="assets/theme/js/script.js"></script>
   
   
-<input name="cookieData" type="hidden" data-cookie-text="<!-- Cookie consent code-->
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-	<script>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-	  "palette": {
-		"popup": {
-		  "background": "#383b75"
-		},
-		"button": {
-		  "background": "#f1d600"
-		}
-	  },
-	  "theme": "classic",
-	  "content": {
-		"href": "https://rompassos.github.io/privacy.html"
-	  }
-	})});">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .js_enabled #cookie-message {
+            display: none;
+        }
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+        #content {
+            margin: 1em;
+        }
+        #cookie-message {
+            background-color: #d5e6ed;
+            color: #662d91;
+            margin: 0 auto;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+<script>
+    // Detect JS support
+    document.body.className = document.body.className + " js_enabled";
+</script>
+
+<div id="cookie-message" data-cookie-expiry="60">
+    <p>
+        [Site name] uses cookies to ensure we give you the best experience on our website.
+        <a href="privacy.html" title="View our Cookie Policy">Find out more about cookies</a>
+    </p>
+</div>
+
+<div id="content">
+
   </body>
 </html>
